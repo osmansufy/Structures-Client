@@ -58,11 +58,11 @@ axios.post('isAdmin',{email})
               <ListItemText primary="View Site" />
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link to={`${url}/addOrder`}>
               <ListItemText primary="Send Order" />
             </Link>
-          </ListItem>
+          </ListItem> */}
        
           <ListItem>
             <Link to={`${url}`}>
